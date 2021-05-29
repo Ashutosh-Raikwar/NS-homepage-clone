@@ -1,7 +1,11 @@
 html{
   font-family: Avenir, sans-serif;
   font-size: medium;
+  color: #686868;
 }
+/* body{
+  background-color: gold;
+} */
 
 .card-body{
     display: inline;
@@ -23,17 +27,23 @@ html{
     margin: 0.5em;
     padding: 80px 15px;
     width: 20%;
-    border-width: 0.2px;
+    border-width: 0.1px;
     border-radius: 7px;
     border: solid;
     border-color: rgb(66, 64, 64);
     background-color: white;
   }
+  
   .box:hover {
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
+
+  .box-2:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
   .box-2{
-    background-image: linear-gradient(to right ,#43bad8, #16457E);
+    background-image: linear-gradient(to right ,#0d9ae3, #074268);
     display: inline;
     position:static;
     text-align: center;
@@ -54,8 +64,9 @@ html{
   }
 
   .col{
-    margin-right: -5px;
+    margin-right: 15px;
   }
+  
 #wd{
   display: inline-block; 
   float: right;
@@ -64,10 +75,23 @@ html{
   font-size: 32px;
 }
 #agreement{
+  position: relative;
+  font-size: 15px;
   color: white;
-  background-color: aquamarine;
-  width:max-content; 
+  background-color: #45d5c4;
+  left: 480px;
+  top: -15px;
   border-radius: 5px;
-  float: right;
+  border: none;
 }
+
+#Share_feedback{
+  border-radius: 4px;
+  position: relative;
+  top: 35px;
+  left: 50px;
+}
+/* #options{
+  display: flex;
+} */
 
